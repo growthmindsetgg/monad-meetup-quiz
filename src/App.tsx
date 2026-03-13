@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { FormEvent } from "react";
 import { supabase } from "./lib/supabase";
-import "./app.css";
+import "./App.css";
 
 type Participant = {
   id: string;
